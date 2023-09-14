@@ -1,0 +1,376 @@
+
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: black;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    background-color: #F5F0DF
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(149, 147, 147, 0.3);
+    margin: 10px;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, .3)
+}
+
+.main-header {
+    background-color: #F5F0DF;
+    background-size: cover;
+    padding-bottom: 10px;
+
+    background-image: url('images/bluecurve.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.first-header {
+
+    background-image: url('images/me2.jpg');
+    background-size: cover; 
+    background-position: center; 
+    color: white; 
+    text-align: center; 
+    padding: 100px 0; 
+}
+
+.my-name {
+    text-align: center;
+    margin: 0;
+    font-size: 4em;
+    font-family: "Ariel";
+    font-weight: normal;
+    color: white;
+}
+
+.my-name-large {
+    font-size: 8em;
+    color: white;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.intro {
+    font-size: 10em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.section-header {
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.this-section-header {
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+    margin: 10px;
+    padding: 10px;
+}
+
+.about-my-image {
+    float: left;
+    height: 280px;
+    width: 400px;
+    margin: 15px;
+    border-radius: 20%;
+}
+
+.main-footer {
+    background-color: #F5F0DF;
+    color: rgb(35, 34, 34);
+}
+
+.main-footer-container {
+    display: flex;
+    color: rgb(51, 49, 49);
+    font-family: "Georgia", sans-serif;
+}
+
+.main-footer-container ul {
+    flex-grow: 2;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0.5em;
+}
+
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
+
+.contact-form {
+    width: 50%;
+    margin: 0 auto;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid white;
+  }
+  
+  input[type="submit"] {
+    background-color: #042C51;
+    color: #F5F0DF;
+    border: none;
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+  }
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  
+.wildfire {
+    width: 600px; 
+    height: 800px; 
+
+    margin: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+}
+
+.walrus {
+    width: 650px;
+    height: 800px;
+
+    margin: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+}
+
+.sunset {
+    width: 750px;
+    height: 500px;
+
+    margin: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+}
+  
+.flowers {
+    width: 700px;
+    height: 500px;
+
+    margin: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+}
+
+.cow {
+    width: 700px;
+    height: 500px; 
+
+    margin: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+}
+
+.rajistan {
+    width: 750px; 
+    height: 500px; 
+
+    margin: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+}
+
+.lucknowsunset {
+    width: 500px; 
+    height: 750px; 
+
+    margin: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+}
+
+.background {
+    width: 500px;
+    height: 750px;
+
+    margin: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+}
+
+.monkey {
+    width: 700px; 
+    height: 410px; 
+
+    margin: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+}
+
+.lucknow {
+    width: 700px; 
+    height: 410px; 
+
+    margin: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+}
+
+.northwestern {
+    width: 700px; 
+    height: 410px; 
+
+    margin: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+}
+
+.cabin {
+    width: 700px; 
+    height: 410px; 
+
+    margin: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+}
+
+.clothesline {
+    width: 720px; 
+    height: 430px; 
+
+    margin: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+}
+
+.car {
+    width: 720px; 
+    height: 430px; 
+
+    margin: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+
+}
+
+
+.photo {
+    margin: 10px;
+}
+
+img {
+    max-width: 70%;
+    max-height: 70%;
+    margin: 10px;
+
+  }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+p {
+    font-family: "Georgia", sans-serif;
+    font-size: 40px;
+    line-height: 1.5;
+    color: #5A5A5A;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container img {
+    width: 300px;
+    height: 500px;
+    margin-right: 10px;
+}
